@@ -1,0 +1,28 @@
+.prob-sect {
+  color: var(--color-bg); 
+  min-height: 80vh;
+  background-color: var(--color-overlay-bg);
+  background-image: url("../../assets/clothes-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  background-blend-mode: darken;
+  
+  padding-top: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+}
+
+.citation {
+  display: flex;
+  justify-content: space-between;
+}
+ p {
+  max-width: 100ch;
+ }
+
+ .first-line {
+  padding-top: 15px;
+ }

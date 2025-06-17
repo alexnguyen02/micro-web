@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --font-main: "Saira", sans-serif;
+  --color-bg: #F5ECDE; 
+  --color-darker-bg: #F0E4D1; 
+  --color-footer-bg: #FFF9F0; 
+  --color-dark: #261D11; 
+  --color-green: #045749; 
+  --color-orange: #E27445; 
+  --color-white: #ffffff;
+  --color-overlay-bg: #07070792; 
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.hero-sect, 
+.prob-sect {
+  padding: 15px 5rem;
+}
+
+h1, 
+h2,
+h3, 
+p {
+  margin: 0; 
+  padding: 0 0 0.5rem 0; 
+  font-family: var(--font-main);
+}
+
+h1 {
+  font-size: clamp(2rem, 5vw, 4rem);
+}
+
+h2 {
+  font-size: clamp(1.5rem, 3vw, 3.5rem);
+}
+
+
+h3 {
+  font-size: clamp(1.2rem, 1.7vw, 3rem);
+}
+
+p {
+  font-size: 16px; 
+}
+
+

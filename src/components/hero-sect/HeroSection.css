@@ -1,0 +1,56 @@
+.hero-sect {
+  background-color: var(--color-bg);
+  color: var(--color-dark);
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+}
+
+.hero-header {
+  text-transform: uppercase;
+}
+
+h3 {
+  font-weight: 300;
+}
+
+input {
+  max-width: 15rem;
+  padding: 1rem; 
+  margin-bottom: 0.5rem;
+}
+
+button {
+  background-color: var(--color-green);
+  padding: 15px 25px; 
+  border-radius: 30px;
+  max-width: 10rem;
+  border: var(--color-green);
+  color: var(--color-bg);
+  transition: all 350ms ease-out;
+}
+
+button:hover {
+  background-color: var(--color-bg);
+  color: var(--color-dark); 
+  border: 1px solid var(--color-green);
+}
+
+/* Keyframes */
+@keyframes appear{
+  from {
+    opacity: 0;
+    transform: translateY(-10%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Animations */
+.slide-down {
+  animation: appear 2.5s ease-out; 
+}
